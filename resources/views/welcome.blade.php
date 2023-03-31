@@ -1,3 +1,4 @@
+{{-- Home page with form --}}
 @extends('layout.forms')
 
 @section('title', 'Qr Code Generate')
