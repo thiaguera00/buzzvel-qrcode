@@ -8,6 +8,9 @@ use Tests\TestCase;
 
 class UserInformationsControllerTest extends TestCase
 {
+    /**
+    * testing route status
+    */
     public function test_behaves_expected(): void
     {
         $data = [
@@ -20,6 +23,4 @@ class UserInformationsControllerTest extends TestCase
         
         $response->assertStatus(200);
     }
-
-
 }
