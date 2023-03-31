@@ -25,7 +25,7 @@ class FormQrcodeControllerTest extends TestCase
         ];
 
         $response = $this->post('generate-qrcode', $data);
-        // dd($response);
+
         $response->assertStatus(200);
     }
 
