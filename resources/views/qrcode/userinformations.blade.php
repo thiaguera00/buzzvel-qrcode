@@ -1,3 +1,4 @@
+{{-- Third page on this page is the business card that the user read in Qr Code --}}
 @extends('layout.informations')
 
 @section('title', 'Qr Code Informations')
