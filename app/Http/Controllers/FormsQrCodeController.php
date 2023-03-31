@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreUpdateQrcodeFormRequest;
 
+/**
+ * first-page form controller
+ */
 class FormsQrCodeController extends Controller
 {
     public function store(StoreUpdateQrcodeFormRequest $request)
