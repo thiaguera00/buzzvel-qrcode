@@ -1,3 +1,4 @@
+{{-- Second page on this page we generate the Qr Code with the data that the user filled in --}}
 @php
   $url = route('informations', [
     'name' => $name, 
